@@ -1,15 +1,22 @@
 # cookeys
 
-To install dependencies:
+A key-value store backed by cookies. This repo supplements a blog post I wrote:
+[Cookies are a distributed storage mechanism](https://dietcode.io/p/cookies)
+
+![UI interface for a cookie-backed KV store](./screenshot.png)
+
+### DIY
+
+1. Install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+2. Run server:
 
 ```bash
-bun run index.ts
+bun run --bun --hot index.tsx
 ```
 
-This project was created using `bun init` in bun v1.0.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+3. Open up `http://localhost:8000`
